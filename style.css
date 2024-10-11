@@ -1,0 +1,55 @@
+body{
+    color:orange;
+    background:rgb(46, 43, 43);
+    margin: 8px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 4px rgba(54, 112, 221, 0.808);
+    padding:10px;
+    font-size: 40px;
+    color: rgb(54,112,221);
+    justify-content: center;
+}
+
+.aberturas{
+    background: rgb(63, 85, 104);
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Play", sans-serif;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.ep{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.episodeos{
+    background: rgb(63, 85, 104);
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ep img {
+    height: 200px;
+    opacity: 0.5;
+    height: 200px;
+}
+
+.ep img:hover {
+    opacity: 1;
+    border: 5px solid orange;
+}
